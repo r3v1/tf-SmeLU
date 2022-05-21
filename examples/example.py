@@ -25,7 +25,7 @@ def main():
     axs[1].set_title("SmeLU gradients")
     axs[1].grid()
     plt.tight_layout()
-    plt.savefig("example.jpg")
+    # plt.savefig("example.jpg")
     plt.show()
 
 

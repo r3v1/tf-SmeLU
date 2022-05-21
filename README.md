@@ -22,7 +22,7 @@ pip install git+https://github.com/r3v1/tf-SmeLU
 
 ````python
 import tensorflow as tf
-from smelu import smelu
+from tf_smelu import smelu
 
 x = tf.range(-6, 6, 1, dtype=float)  # <tf.Tensor: numpy=array([-6., -5., -4., -3., -2., -1.,  0.,  1.,  2.,  3.,  4.,  5.], dtype=float32)>
 
