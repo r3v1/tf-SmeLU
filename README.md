@@ -12,15 +12,15 @@ by Gil I. Shamir and Dong Lin.
 
 ## Installation
 
-The SmeLU can be installed by using `pip`.
+The SmeLU can be installed by using `pip`.:
 
-````shell script
-pip install git+https://github.com/r3v1/tf-SmeLU
-````
+```shell
+pip install tf-smelu
+```
 
 ## Example Usage
 
-````python
+```python
 import tensorflow as tf
 from tf_smelu import smelu
 
@@ -29,7 +29,7 @@ x = tf.range(-6, 6, 1, dtype=float)  # <tf.Tensor: numpy=array([-6., -5., -4., -
 smelu(x, beta=0.1)  # <tf.Tensor: numpy=array([0.,0.,0.,0.,0.,0.,0.025,1.,2.,3.,4.,5.], dtype=float32)>
 smelu(x, beta=0.5)  # <tf.Tensor: numpy=array([0.,0.,0.,0.,0.,0.,0.125,1.,2.,3.,4.,5.], dtype=float32)>
 smelu(x, beta=1.)   # <tf.Tensor: numpy=array([0.,0.,0.,0.,0.,0.,0.25 ,1.,2.,3.,4.,5.], dtype=float32)>
-````
+```
 
 The SmeLU takes the following parameters.
 
@@ -37,11 +37,11 @@ The SmeLU takes the following parameters.
 
 ## Reference
 
-````bibtex
+```bibtex
 @article{Shamir2022,
         title={{Real World Large Scale Recommendation Systems Reproducibility and Smooth Activations}},
         author={Shamir, Gil I and Lin, Dong},
         journal={{arXiv preprint arXiv:2202.06499}},
         year={2022}
 }
-````
+```
